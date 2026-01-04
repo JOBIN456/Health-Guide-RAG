@@ -1,0 +1,84 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+
+{% endblock %}
+
+
+
+{% block content %}
+
+<meta name="csrf-token" content="{{ csrf_token }}">
+
+<nav class="navbar grNAV">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex justify-content-center align-items-center gap-3" href="#">
+        <img src="{% static 'images\chatbot.png' %}" alt="" class="d-inline-block align-text-top iconim">
+        RAG Chatbot
+      </a>
+
+
+      <div class="user-dropdown d-flex align-items-center gap-2">
+        <span class="user-name text-white fw-semibold">{{ request.user.username }}</span>
+        <a href="#" class="user-icon">
+          <i class="fas fa-user-circle fa-2x"></i>
+        </a>
+        
+        <!-- Dropdown Menu -->
+        <div class="user-menu">
+          <form method="post" action="{% url 'logout_view' %}" style="display:inline;">
+            {% csrf_token %}
+            <button class="user-item" type="submit">Logout</button>
+          </form>
+        </div>
+      </div>
+      
+
+    </div>
+
+  </nav>
+      
+  <div class="themaindiv">
+      <div class="thetextdisplayer container">
+             
+        <!-- <div class="message bot-message">
+          I can help you with product inquiries, technical support, scheduling, and much more. What specific information are you looking for?
+          <div class="timestamp">10:31 AM</div>
+      </div>
+       -->
+      <!-- <div class="message user-message" id="usertext">
+          <div class="timestamp"></div>
+      </div> -->
+<!--       
+      <div class="typing-indicator">
+          <div class="typing-dot"></div>
+          <div class="typing-dot"></div>
+          <div class="typing-dot"></div>
+      </div> -->
+
+
+
+         
+      </div>
+
+
+      <div class="chat-input-area container">
+        <!-- <div class="attachments">
+            <button>
+                <i class="material-icons">mic</i>
+            </button>
+            <button>
+                <i class="material-icons">attach_file</i>
+            </button>
+        </div> -->
+        
+          <input type="text" placeholder="Type a message..." id="themessage-sender">
+          <button id="send-btn" type="submit">
+              <i class="material-icons">send</i>
+          </button>
+     
+       
+    </div>
+  </div>
+{% endblock %}

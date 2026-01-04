@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Electrolize", sans-serif;
+    font-weight: 800;
+}
+body{
+    overflow: hidden;
+}
+.grNAV{
+    color: white;
+    background: linear-gradient(135deg, #2196F3, #0D47A1);
+}
+.grNAV a {
+    color:white !important;
+}
+
+
+.iconim{
+    height: 60px;
+
+}
+
+
+/*****************************LOGIN css ********/
+.thbgg{
+    background-image: url(/static/images/login.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 100dvh;
+    position: relative;
+  }
+  
+  .blackoverlay{
+    background-color:rgba(15, 14, 14, 0.23);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+  
+  }
+  
+  .logincontainer {
+    max-width: 350px;
+    width:100%;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin:10px;
+  }
+  
+  .logincontainer h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    height: 73px;
+    overflow: hidden;
+  
+  }
+  
+  .form-group label {
+    color: white;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .btnglasss {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* .btnglasss:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  
+  /* Optional: Style error messages for specific input fields */
+  input.error + label.error {
+    color: #ff5733; 
+    font-size: .85rem;/* Custom color for input errors */
+    font-weight: 200;
+  }
+
+.loadrgiter{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+.loadrgiter  a {
+    text-decoration: none;
+}
+
+/*****************************REgister css ********/
+
+.thbggreg{
+    background-image: url(/static/images/register.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    height: 100dvh;
+    position: relative;
+}
+
+
+
+
+/* navbardropdwon */
+
+/* Style the user icon */
+.user-icon {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style the user dropdown container */
+  .user-dropdown {
+    position: relative;
+  }
+  
+  /* Hide the dropdown menu initially */
+  .user-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgb(62 60 60 / 30%)
+  }
+  
+  /* Show the dropdown when hovering over the user icon */
+  .user-dropdown:hover .user-menu {
+    display: block;
+  }
+  
+  /* Style for the logout button */
+  .user-item {
+    background-color: #ffffff;
+    color: black; /* Black font */
+    border: none;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    font-weight: normal;
+  }
+  
+  /* Hover effect for the logout button */
+  .user-item:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0); /* White font on hover */
+  }
+  
+
+.themaindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.thetextdisplayer{
+    height:75dvh;
+    overflow: auto;
+    display: flex;
+    align-items: flex-start; 
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.chat-input-area {
+    padding: 15px 20px;
+    border-top: 1px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.chat-input-area input {
+    flex: 1;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 30px;
+    background-color: #f5f7fa;
+    font-size: 14px;
+    outline: none;
+    transition: box-shadow 0.3s;
+}
+
+.chat-input-area input:focus {
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
+}
+
+.chat-input-area button {
+    border: none;
+    background: linear-gradient(135deg, #2196F3, #0D47A1);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.chat-input-area button:hover {
+    transform: scale(1.1);
+}
+
+.chat-input-area .attachments {
+    position: absolute;
+    right: 70px;
+    display: flex;
+}
+
+.chat-input-area .attachments button {
+    background: transparent;
+    color: #90CAF9;
+    transition: color 0.3s;
+}
+
+.chat-input-area .attachments button:hover {
+    color: #2196F3;
+    transform: scale(1);
+}
+
+@keyframes typingAnimation {
+    0% { opacity: 0.4; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.2); }
+    100% { opacity: 0.4; transform: scale(1); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+        /* Custom scrollbar */
+        .thetextdisplayer::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .thetextdisplayer::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        .thetextdisplayer::-webkit-scrollbar-thumb {
+            background: #bbdefb;
+            border-radius: 10px;
+        }
+
+        .thetextdisplayer::-webkit-scrollbar-thumb:hover {
+            background: #90CAF9;
+        }
+      
+       
+
+        .message {
+            max-width: 70%;
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            border-radius: 18px;
+            line-height: 1.5;
+            font-size: 14px;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .bot-message {
+            background-color: #e3f2fd;
+            color: #0D47A1;
+            border-bottom-left-radius: 5px;
+            align-self: flex-start;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .user-message {
+            background: linear-gradient(135deg, #2196F3, #0D47A1);
+            color: white;
+            border-bottom-right-radius: 5px;
+            align-self: flex-end;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .timestamp {
+            font-size: 10px;
+            margin-top: 5px;
+            opacity: 0.7;
+            text-align: right;
+        }
+
+        .typing-indicator {
+            display: flex;
+            padding: 10px 15px;
+            background-color: #e3f2fd;
+            border-radius: 18px;
+            margin-bottom: 15px;
+            width: max-content;
+            border-bottom-left-radius: 5px;
+            align-self: flex-start;
+        }
+
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #2196F3;
+            border-radius: 50%;
+            margin-right: 5px;
+            animation: typingAnimation 1.5s infinite;
+        }
+
+        .typing-dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .typing-dot:nth-child(3) {
+            animation-delay: 0.4s;
+            margin-right: 0;
+        }

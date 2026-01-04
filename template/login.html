@@ -1,0 +1,56 @@
+
+{% load static %}
+
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Login | HealthGuide RAG</title>
+ <link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+</head>
+<body>
+ <div class="thbgg">
+   <div class="blackoverlay">
+     <div class="logincontainer">
+       <h2>Login</h2>
+       <form method="post" id="loginform">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+        </div>
+        <button type="submit" class="btnglasss">Login</button>
+    </form>
+    
+      <div class="loadrgiter">
+         <p>Create an Account? <a href="{%url 'register' %}">Register</a>
+         </p>
+      </div>
+   </div>
+   </div>
+
+ </div>
+
+  <!-- jQuery & SweetAlert CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="{% static 'js/validation.js' %}"></script>
+
+<!-- jQuery Validator CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+<script>
+</script>
+</body>
+</html>
+
+
+

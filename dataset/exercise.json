@@ -1,0 +1,2730 @@
+[
+    {
+      "id": 1,
+      "name": "Barbell Bench Press",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Chest",
+      "secondary_muscles": ["Triceps", "Front Delts"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Lie on a flat bench with your feet planted on the floor.",
+        "Grip the barbell slightly wider than shoulder-width.",
+        "Lower the bar slowly to your chest.",
+        "Press the bar back up to the starting position.",
+        "Keep your core engaged and avoid excessive arching of your back."
+      ],
+      "variations": [
+        "Close-Grip Bench Press",
+        "Paused Bench Press",
+        "Spoto Press"
+      ],
+      "common_mistakes": [
+        "Bouncing the bar off the chest.",
+        "Flaring the elbows too much.",
+        "Not maintaining proper wrist positioning."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Incline Barbell Bench Press",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Upper Chest",
+      "secondary_muscles": ["Triceps", "Front Delts"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Set a bench to a 30-45 degree incline.",
+        "Grip the bar slightly wider than shoulder-width.",
+        "Lower the bar to the upper chest.",
+        "Press it back up, maintaining control."
+      ],
+      "variations": [
+        "Incline Dumbbell Press",
+        "Smith Machine Incline Press"
+      ],
+      "common_mistakes": [
+        "Using too steep of an incline, shifting focus to shoulders.",
+        "Bouncing the bar off the chest."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Decline Barbell Bench Press",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Lower Chest",
+      "secondary_muscles": ["Triceps", "Front Delts"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Lie on a decline bench and secure your feet.",
+        "Grip the bar slightly wider than shoulder-width.",
+        "Lower the bar to your lower chest.",
+        "Press it back up while keeping control."
+      ],
+      "variations": [
+        "Decline Dumbbell Press"
+      ],
+      "common_mistakes": [
+        "Not using a spotter when lifting heavy."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dumbbell Bench Press",
+      "type": "Strength",
+      "equipment": "Dumbbells",
+      "primary_muscle": "Chest",
+      "secondary_muscles": ["Triceps", "Front Delts"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Lie flat on a bench with a dumbbell in each hand.",
+        "Press the dumbbells up until arms are fully extended.",
+        "Lower them slowly while keeping control."
+      ],
+      "variations": [
+        "Neutral-Grip Dumbbell Press"
+      ],
+      "common_mistakes": [
+        "Bringing the dumbbells together at the top, reducing tension."
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Incline Dumbbell Press",
+      "type": "Strength",
+      "equipment": "Dumbbells",
+      "primary_muscle": "Upper Chest",
+      "secondary_muscles": ["Triceps", "Front Delts"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Set a bench to a 30-45 degree incline.",
+        "Press the dumbbells up, extending your arms.",
+        "Lower them with control to your upper chest."
+      ],
+      "variations": [
+        "Single-Arm Incline Press"
+      ],
+      "common_mistakes": [
+        "Using excessive weight, leading to poor control."
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Chest Dips",
+      "type": "Bodyweight",
+      "equipment": "Parallel Bars",
+      "primary_muscle": "Chest",
+      "secondary_muscles": ["Triceps", "Front Delts"],
+      "difficulty": "Advanced",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Grip the parallel bars and lift yourself.",
+        "Lean slightly forward to engage the chest more.",
+        "Lower yourself until your elbows reach 90 degrees.",
+        "Push back up explosively."
+      ],
+      "variations": [
+        "Weighted Dips"
+      ],
+      "common_mistakes": [
+        "Not leaning forward, turning the movement into a triceps dip."
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cable Flys",
+      "type": "Strength",
+      "equipment": "Cable Machine",
+      "primary_muscle": "Chest",
+      "secondary_muscles": ["Front Delts"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Stand between the cable stations and grab handles.",
+        "Step forward and bring your hands together in front of your chest.",
+        "Return to the starting position slowly."
+      ],
+      "variations": [
+        "Incline Cable Fly",
+        "Low-to-High Cable Fly"
+      ],
+      "common_mistakes": [
+        "Using momentum instead of controlled movement."
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Machine Chest Press",
+      "type": "Strength",
+      "equipment": "Machine",
+      "primary_muscle": "Chest",
+      "secondary_muscles": ["Triceps", "Front Delts"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Adjust the seat height so the handles are at chest level.",
+        "Press the handles forward until your arms are extended.",
+        "Slowly return to the starting position."
+      ],
+      "variations": [
+        "Incline Machine Press"
+      ],
+      "common_mistakes": [
+        "Locking out the elbows at the top, reducing tension."
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Push-Ups",
+      "type": "Bodyweight",
+      "equipment": "None",
+      "primary_muscle": "Chest",
+      "secondary_muscles": ["Triceps", "Front Delts"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Start in a high plank position.",
+        "Lower your chest until it nearly touches the ground.",
+        "Push back up to the starting position."
+      ],
+      "variations": [
+        "Incline Push-Ups",
+        "Decline Push-Ups",
+        "Archer Push-Ups"
+      ],
+      "common_mistakes": [
+        "Letting the hips sag, reducing core engagement."
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Dumbbell Flys",
+      "type": "Strength",
+      "equipment": "Dumbbells",
+      "primary_muscle": "Chest",
+      "secondary_muscles": ["Front Delts"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Push",
+      "instructions": [
+        "Lie flat on a bench with a dumbbell in each hand.",
+        "Extend your arms above your chest with a slight bend in the elbows.",
+        "Lower the dumbbells in a wide arc until your chest stretches.",
+        "Bring them back up in the same arc while squeezing your chest."
+      ],
+      "variations": [
+        "Incline Dumbbell Fly",
+        "Decline Dumbbell Fly"
+      ],
+      "common_mistakes": [
+        "Bending the elbows too much, turning it into a press.",
+        "Using momentum instead of controlled motion."
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Pec Deck Machine",
+      "type": "Strength",
+      "equipment": "Machine",
+      "primary_muscle": "Chest",
+      "secondary_muscles": ["Front Delts"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Push",
+      "instructions": [
+        "Adjust the seat so the handles are at chest level.",
+        "Grip the handles with a slight bend in your elbows.",
+        "Bring the handles together while squeezing your chest.",
+        "Slowly return to the starting position."
+      ],
+      "variations": [
+        "Reverse Pec Deck (for Rear Delts)"
+      ],
+      "common_mistakes": [
+        "Using excessive weight, leading to loss of control.",
+        "Not maintaining a slight bend in the elbows."
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Smith Machine Bench Press",
+      "type": "Strength",
+      "equipment": "Smith Machine",
+      "primary_muscle": "Chest",
+      "secondary_muscles": ["Triceps", "Front Delts"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Lie on a flat bench under the Smith machine bar.",
+        "Grip the bar slightly wider than shoulder-width.",
+        "Lower the bar to your chest in a controlled manner.",
+        "Press it back up to the starting position."
+      ],
+      "variations": [
+        "Incline Smith Machine Press",
+        "Decline Smith Machine Press"
+      ],
+      "common_mistakes": [
+        "Locking out the elbows at the top.",
+        "Using a grip that is too narrow or too wide."
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Landmine Press",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Chest",
+      "secondary_muscles": ["Triceps", "Front Delts"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Secure one end of a barbell in a landmine attachment or corner.",
+        "Grip the free end of the bar with both hands or one hand.",
+        "Press the bar forward until your arms are fully extended.",
+        "Lower it back in a controlled motion."
+      ],
+      "variations": [
+        "Single-Arm Landmine Press"
+      ],
+      "common_mistakes": [
+        "Leaning too far forward, losing balance.",
+        "Using momentum instead of controlled pressing."
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Svend Press",
+      "type": "Strength",
+      "equipment": "Plates",
+      "primary_muscle": "Chest",
+      "secondary_muscles": ["Front Delts"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Push",
+      "instructions": [
+        "Hold a weight plate between your palms at chest level.",
+        "Squeeze the plate and press it forward.",
+        "Bring it back to your chest while maintaining the squeeze."
+      ],
+      "variations": [
+        "Standing Svend Press",
+        "Seated Svend Press"
+      ],
+      "common_mistakes": [
+        "Not squeezing the plate hard enough.",
+        "Letting the arms drop too low."
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Close-Grip Bench Press",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Triceps",
+      "secondary_muscles": ["Chest", "Front Delts"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Lie on a flat bench and grip the barbell with hands shoulder-width apart.",
+        "Lower the bar to your lower chest while keeping your elbows tucked in.",
+        "Press the bar back up, fully extending your arms.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Close-Grip Dumbbell Press",
+        "Smith Machine Close-Grip Press"
+      ],
+      "common_mistakes": [
+        "Using a grip that is too narrow, straining the wrists.",
+        "Flaring the elbows outward instead of keeping them close."
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Triceps Dips",
+      "type": "Bodyweight",
+      "equipment": "Parallel Bars",
+      "primary_muscle": "Triceps",
+      "secondary_muscles": ["Chest", "Front Delts"],
+      "difficulty": "Advanced",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Grip the parallel bars and lift yourself up.",
+        "Keep your body upright and lower yourself until your elbows are at 90 degrees.",
+        "Press back up until your arms are fully extended.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Weighted Triceps Dips",
+        "Bench Dips"
+      ],
+      "common_mistakes": [
+        "Leaning too far forward, turning it into a chest dip.",
+        "Not going deep enough to engage the triceps."
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Overhead Dumbbell Triceps Extension",
+      "type": "Strength",
+      "equipment": "Dumbbell",
+      "primary_muscle": "Triceps",
+      "secondary_muscles": ["Shoulders"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Push",
+      "instructions": [
+        "Hold a dumbbell with both hands behind your head.",
+        "Keep your elbows close to your ears and extend your arms upward.",
+        "Slowly lower the dumbbell back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Single-Arm Overhead Triceps Extension",
+        "EZ Bar Overhead Triceps Extension"
+      ],
+      "common_mistakes": [
+        "Flaring the elbows outward instead of keeping them close.",
+        "Using excessive weight, compromising form."
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Skull Crushers",
+      "type": "Strength",
+      "equipment": "EZ Bar",
+      "primary_muscle": "Triceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Push",
+      "instructions": [
+        "Lie on a bench and hold an EZ bar with a narrow grip.",
+        "Lower the bar towards your forehead, keeping elbows stationary.",
+        "Extend your arms back up to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Dumbbell Skull Crushers",
+        "Cable Skull Crushers"
+      ],
+      "common_mistakes": [
+        "Letting the elbows move too much, reducing triceps activation.",
+        "Lowering the weight too far back, risking injury."
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Cable Triceps Pushdown",
+      "type": "Strength",
+      "equipment": "Cable Machine",
+      "primary_muscle": "Triceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Push",
+      "instructions": [
+        "Stand in front of a cable machine with a straight bar or rope attachment.",
+        "Grip the handle with palms facing down and elbows tucked in.",
+        "Push the bar down until your arms are fully extended.",
+        "Slowly return to the starting position."
+      ],
+      "variations": [
+        "Rope Triceps Pushdown",
+        "Reverse-Grip Triceps Pushdown"
+      ],
+      "common_mistakes": [
+        "Using momentum instead of controlled movement.",
+        "Letting the elbows flare outward."
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Diamond Push-Ups",
+      "type": "Bodyweight",
+      "equipment": "None",
+      "primary_muscle": "Triceps",
+      "secondary_muscles": ["Chest", "Shoulders"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Start in a push-up position with hands close together, forming a diamond shape.",
+        "Lower your chest towards your hands, keeping elbows tucked in.",
+        "Press back up to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Incline Diamond Push-Ups",
+        "Decline Diamond Push-Ups"
+      ],
+      "common_mistakes": [
+        "Letting the elbows flare outward, reducing triceps activation.",
+        "Not maintaining a straight body posture."
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Reverse-Grip Triceps Pushdown",
+      "type": "Strength",
+      "equipment": "Cable Machine",
+      "primary_muscle": "Triceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Push",
+      "instructions": [
+        "Stand in front of a cable machine with a straight bar attachment.",
+        "Grip the bar with palms facing up (reverse grip).",
+        "Push the bar down until your arms are fully extended.",
+        "Slowly return to the starting position."
+      ],
+      "variations": [
+        "Single-Arm Reverse-Grip Pushdown"
+      ],
+      "common_mistakes": [
+        "Using too much weight, leading to improper form.",
+        "Letting the elbows move too much."
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Bench Dips",
+      "type": "Bodyweight",
+      "equipment": "Bench",
+      "primary_muscle": "Triceps",
+      "secondary_muscles": ["Shoulders", "Chest"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Sit on a bench and place your hands shoulder-width apart on the edge.",
+        "Extend your legs in front of you and lower your body by bending your elbows.",
+        "Push yourself back up to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Weighted Bench Dips"
+      ],
+      "common_mistakes": [
+        "Not lowering yourself enough to fully engage the triceps.",
+        "Using momentum instead of controlled movement."
+      ]
+    },  
+    {
+      "id": 23,
+      "name": "Barbell Biceps Curl",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Stand upright holding a barbell with an underhand grip, shoulder-width apart.",
+        "Keep your elbows close to your body and curl the bar up to your chest.",
+        "Slowly lower the bar back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "EZ Bar Curl",
+        "Wide-Grip Barbell Curl"
+      ],
+      "common_mistakes": [
+        "Using momentum to swing the weight up.",
+        "Not fully extending the arms at the bottom."
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Dumbbell Biceps Curl",
+      "type": "Strength",
+      "equipment": "Dumbbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Hold a dumbbell in each hand with a supinated grip (palms facing forward).",
+        "Keep your elbows close to your torso and curl the dumbbells up.",
+        "Slowly lower the weights back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Alternating Dumbbell Curl",
+        "Seated Dumbbell Curl"
+      ],
+      "common_mistakes": [
+        "Swinging the dumbbells instead of using controlled movement.",
+        "Not fully extending the arms at the bottom."
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Hammer Curl",
+      "type": "Strength",
+      "equipment": "Dumbbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms", "Brachialis"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Hold a dumbbell in each hand with a neutral grip (palms facing inward).",
+        "Keep your elbows close to your body and curl the weights up.",
+        "Slowly lower back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Cross-Body Hammer Curl"
+      ],
+      "common_mistakes": [
+        "Using too much weight, leading to swinging.",
+        "Not keeping the elbows close to the torso."
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Preacher Curl",
+      "type": "Strength",
+      "equipment": "EZ Bar",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Sit on a preacher bench and rest your arms on the pad.",
+        "Hold an EZ bar with an underhand grip and curl the weight up.",
+        "Slowly lower the weight back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Dumbbell Preacher Curl"
+      ],
+      "common_mistakes": [
+        "Not using full range of motion.",
+        "Using excessive weight, leading to improper form."
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Concentration Curl",
+      "type": "Strength",
+      "equipment": "Dumbbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Sit on a bench and hold a dumbbell with an underhand grip.",
+        "Rest your elbow on the inside of your thigh and curl the weight up.",
+        "Slowly lower the dumbbell back down.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Standing Concentration Curl"
+      ],
+      "common_mistakes": [
+        "Using momentum to lift the weight.",
+        "Not fully extending the arm at the bottom."
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Cable Biceps Curl",
+      "type": "Strength",
+      "equipment": "Cable Machine",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Stand in front of a cable machine with a straight bar attachment.",
+        "Grip the bar with palms facing up and curl it towards your shoulders.",
+        "Slowly lower the bar back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Rope Biceps Curl"
+      ],
+      "common_mistakes": [
+        "Leaning back to lift more weight.",
+        "Not fully extending the arms at the bottom."
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Incline Dumbbell Curl",
+      "type": "Strength",
+      "equipment": "Dumbbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Sit on an incline bench with dumbbells in each hand.",
+        "Keep your arms fully extended and curl the weights up.",
+        "Slowly lower them back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Incline Hammer Curl"
+      ],
+      "common_mistakes": [
+        "Not keeping the back fully against the bench.",
+        "Using momentum to swing the weights up."
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Reverse Curl",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Hold a barbell with an overhand grip (palms facing down).",
+        "Keep your elbows close and curl the bar up.",
+        "Slowly lower it back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "EZ Bar Reverse Curl"
+      ],
+      "common_mistakes": [
+        "Using too much weight, causing improper form.",
+        "Not keeping wrists in a neutral position."
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Spider Curl",
+      "type": "Strength",
+      "equipment": "EZ Bar",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Lie on an incline bench facing forward, chest resting on the pad.",
+        "Hold an EZ bar and let your arms hang down.",
+        "Curl the bar up towards your shoulders, keeping elbows stationary.",
+        "Slowly lower back down."
+      ],
+      "variations": [
+        "Dumbbell Spider Curl"
+      ],
+      "common_mistakes": [
+        "Using excessive weight, compromising form.",
+        "Moving elbows too much during the curl."
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Zottman Curl",
+      "type": "Strength",
+      "equipment": "Dumbbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Hold a dumbbell in each hand with a supinated grip.",
+        "Curl the dumbbells up, then rotate your wrists to a pronated grip at the top.",
+        "Slowly lower the weights back down.",
+        "Repeat for the desired number of reps."
+      ],
+      "common_mistakes": [
+        "Not controlling the eccentric (lowering) phase.",
+        "Using momentum instead of muscle contraction."
+      ]
+    },
+    {
+      "id": 33,
+      "name": "21s Biceps Curl",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Hold a barbell with an underhand grip at shoulder-width.",
+        "Perform 7 reps from the bottom to halfway up.",
+        "Perform 7 reps from halfway to the top.",
+        "Perform 7 full-range reps.",
+        "Repeat for the desired number of sets."
+      ],
+      "variations": [
+        "Dumbbell 21s",
+        "EZ Bar 21s"
+      ],
+      "common_mistakes": [
+        "Using momentum to lift the weight.",
+        "Not completing the full range of motion."
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Bayesian Curl",
+      "type": "Strength",
+      "equipment": "Cable Machine",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Advanced",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Attach a single handle to a cable machine at the lowest setting.",
+        "Stand with your back to the machine, holding the handle in one hand.",
+        "Step forward slightly, allowing your arm to extend behind you.",
+        "Curl the handle toward your shoulder and slowly lower it back.",
+        "Repeat and switch arms."
+      ],
+      "variations": [
+        "One-arm Dumbbell Curl"
+      ],
+      "common_mistakes": [
+        "Not keeping the shoulder stable.",
+        "Using too much weight, leading to improper form."
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Drag Curl",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Hold a barbell with an underhand grip, shoulder-width apart.",
+        "Pull the bar up along your body, keeping your elbows behind your torso.",
+        "Stop at chest level and slowly lower it back.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "EZ Bar Drag Curl"
+      ],
+      "common_mistakes": [
+        "Not keeping the bar close to the body.",
+        "Using momentum instead of strict form."
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Standing Alternating Dumbbell Curl",
+      "type": "Strength",
+      "equipment": "Dumbbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Hold a dumbbell in each hand with a supinated grip.",
+        "Curl one dumbbell up while keeping the other arm relaxed.",
+        "Lower the dumbbell and switch arms.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Seated Alternating Curl"
+      ],
+      "common_mistakes": [
+        "Swinging the dumbbells instead of controlled movement.",
+        "Not keeping the elbows close to the torso."
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Cross-Body Hammer Curl",
+      "type": "Strength",
+      "equipment": "Dumbbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Brachialis", "Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Hold a dumbbell in each hand with a neutral grip.",
+        "Curl one dumbbell across your body toward the opposite shoulder.",
+        "Lower back and repeat with the other arm.",
+        "Continue alternating for the desired number of reps."
+      ],
+      "variations": [
+        "Traditional Hammer Curl"
+      ],
+      "common_mistakes": [
+        "Not keeping the core tight and stable.",
+        "Using too much weight, leading to momentum."
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Machine Biceps Curl",
+      "type": "Strength",
+      "equipment": "Biceps Curl Machine",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Sit on a biceps curl machine and grip the handles.",
+        "Keep your elbows fixed and curl the weight up.",
+        "Slowly lower the handles back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Cable Machine Biceps Curl"
+      ],
+      "common_mistakes": [
+        "Leaning forward too much.",
+        "Not using a full range of motion."
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Seated Dumbbell Curl",
+      "type": "Strength",
+      "equipment": "Dumbbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Sit on a bench with a dumbbell in each hand.",
+        "Keep your elbows close to your body and curl the weights up.",
+        "Slowly lower them back down.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Seated Hammer Curl"
+      ],
+      "common_mistakes": [
+        "Leaning back or swinging the weights.",
+        "Not fully extending the arms."
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Reverse-Grip Cable Curl",
+      "type": "Strength",
+      "equipment": "Cable Machine",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Attach a straight bar to the cable machine and hold it with an overhand grip.",
+        "Curl the bar towards your shoulders.",
+        "Slowly lower it back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "EZ Bar Reverse Curl"
+      ],
+      "common_mistakes": [
+        "Using excessive weight, causing wrist strain.",
+        "Not controlling the movement."
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Dumbbell Spider Curl",
+      "type": "Strength",
+      "equipment": "Dumbbell",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Lie on an incline bench, chest resting on the pad.",
+        "Hold a dumbbell in each hand with a supinated grip.",
+        "Curl the dumbbells up towards your shoulders.",
+        "Lower them back down slowly."
+      ],
+      "variations": [
+        "EZ Bar Spider Curl"
+      ],
+      "common_mistakes": [
+        "Using momentum instead of strict form.",
+        "Not fully extending the arms at the bottom."
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Resistance Band Biceps Curl",
+      "type": "Strength",
+      "equipment": "Resistance Band",
+      "primary_muscle": "Biceps",
+      "secondary_muscles": ["Forearms"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Stand on a resistance band and hold the handles with an underhand grip.",
+        "Curl the handles up toward your shoulders.",
+        "Slowly lower them back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Seated Resistance Band Curl"
+      ],
+      "common_mistakes": [
+        "Using too much band resistance, leading to improper form.",
+        "Not keeping elbows stable."
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Hanging Leg Raises",
+      "type": "Strength",
+      "equipment": "Pull-up Bar",
+      "primary_muscle": "Lower Abs",
+      "secondary_muscles": ["Hip Flexors"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Core",
+      "instructions": [
+        "Hang from a pull-up bar with an overhand grip.",
+        "Keep your legs straight and raise them to a 90-degree angle.",
+        "Slowly lower them back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Hanging Knee Raises",
+        "Toes to Bar"
+      ],
+      "common_mistakes": [
+        "Swinging the legs instead of controlled movement.",
+        "Not engaging the core properly."
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Ab Rollout",
+      "type": "Strength",
+      "equipment": "Ab Wheel",
+      "primary_muscle": "Core",
+      "secondary_muscles": ["Lower Back", "Shoulders"],
+      "difficulty": "Advanced",
+      "mechanics": "Compound",
+      "category": "Core",
+      "instructions": [
+        "Kneel on the floor and grip the ab wheel handles.",
+        "Roll forward slowly, extending your body while keeping your core tight.",
+        "Roll back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Standing Ab Rollout"
+      ],
+      "common_mistakes": [
+        "Arching the back instead of keeping it neutral.",
+        "Using momentum instead of controlled movement."
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Cable Crunch",
+      "type": "Strength",
+      "equipment": "Cable Machine",
+      "primary_muscle": "Upper Abs",
+      "secondary_muscles": ["Obliques"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Core",
+      "instructions": [
+        "Attach a rope to the high pulley of a cable machine.",
+        "Kneel down and grip the rope with both hands near your head.",
+        "Crunch down towards the floor while keeping the rope close to your head.",
+        "Slowly return to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Standing Cable Crunch"
+      ],
+      "common_mistakes": [
+        "Pulling with the arms instead of using the abs.",
+        "Not keeping the core engaged."
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Decline Sit-Ups",
+      "type": "Strength",
+      "equipment": "Decline Bench",
+      "primary_muscle": "Upper Abs",
+      "secondary_muscles": ["Hip Flexors"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Core",
+      "instructions": [
+        "Lie on a decline bench and secure your feet.",
+        "Cross your arms over your chest or place them behind your head.",
+        "Sit up while engaging your core.",
+        "Slowly lower back down.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Weighted Decline Sit-Ups"
+      ],
+      "common_mistakes": [
+        "Using momentum instead of core strength.",
+        "Straining the neck by pulling with the hands."
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Hanging Windshield Wipers",
+      "type": "Strength",
+      "equipment": "Pull-up Bar",
+      "primary_muscle": "Obliques",
+      "secondary_muscles": ["Lower Abs", "Hip Flexors"],
+      "difficulty": "Advanced",
+      "mechanics": "Isolation",
+      "category": "Core",
+      "instructions": [
+        "Hang from a pull-up bar and lift your legs to a 90-degree angle.",
+        "Rotate your legs from side to side like a windshield wiper.",
+        "Keep your core engaged throughout the movement.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Bent-Knee Windshield Wipers"
+      ],
+      "common_mistakes": [
+        "Swinging the legs too fast instead of controlled movement.",
+        "Not keeping the core engaged."
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Plank to Shoulder Tap",
+      "type": "Strength",
+      "equipment": "Bodyweight",
+      "primary_muscle": "Core",
+      "secondary_muscles": ["Shoulders"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Core",
+      "instructions": [
+        "Start in a high plank position with hands under your shoulders.",
+        "Lift one hand to tap the opposite shoulder.",
+        "Return the hand to the ground and switch sides.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Plank with Leg Lift"
+      ],
+      "common_mistakes": [
+        "Rotating the hips instead of keeping them stable.",
+        "Not engaging the core properly."
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Russian Twists",
+      "type": "Strength",
+      "equipment": "Medicine Ball",
+      "primary_muscle": "Obliques",
+      "secondary_muscles": ["Core"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Core",
+      "instructions": [
+        "Sit on the floor with knees bent and feet slightly elevated.",
+        "Hold a medicine ball with both hands.",
+        "Twist your torso to the left, then to the right.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Weighted Russian Twists"
+      ],
+      "common_mistakes": [
+        "Moving too fast and losing control.",
+        "Not engaging the core fully."
+      ]
+    },
+    {
+      "id": 50,
+      "name": "V-Ups",
+      "type": "Strength",
+      "equipment": "Bodyweight",
+      "primary_muscle": "Upper & Lower Abs",
+      "secondary_muscles": ["Hip Flexors"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Core",
+      "instructions": [
+        "Lie on your back with legs extended and arms overhead.",
+        "Lift your legs and upper body simultaneously to form a 'V' shape.",
+        "Slowly lower back down.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Weighted V-Ups"
+      ],
+      "common_mistakes": [
+        "Bending the knees instead of keeping legs straight.",
+        "Not controlling the movement."
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Bicycle Crunches",
+      "type": "Strength",
+      "equipment": "Bodyweight",
+      "primary_muscle": "Obliques",
+      "secondary_muscles": ["Core"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Core",
+      "instructions": [
+        "Lie on your back and place your hands behind your head.",
+        "Lift your legs off the ground and alternate touching each elbow to the opposite knee.",
+        "Continue pedaling in a controlled motion.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Weighted Bicycle Crunches"
+      ],
+      "common_mistakes": [
+        "Pulling the neck instead of using core strength.",
+        "Using momentum instead of controlled movement."
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Toe Touches",
+      "type": "Strength",
+      "equipment": "Bodyweight",
+      "primary_muscle": "Upper Abs",
+      "secondary_muscles": ["Core"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Core",
+      "instructions": [
+        "Lie on your back and extend your legs upward.",
+        "Reach your hands towards your toes while lifting your upper back off the floor.",
+        "Lower back down slowly.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Weighted Toe Touches"
+      ],
+      "common_mistakes": [
+        "Using momentum instead of core control.",
+        "Not fully engaging the abs."
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Overhead Barbell Press",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Shoulders",
+      "secondary_muscles": ["Triceps", "Upper Chest"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Stand with your feet shoulder-width apart and grip the barbell at shoulder level.",
+        "Press the bar overhead until your arms are fully extended.",
+        "Lower the bar back down to shoulder level with control.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Seated Overhead Press",
+        "Dumbbell Overhead Press"
+      ],
+      "common_mistakes": [
+        "Excessive arching of the back.",
+        "Incomplete range of motion."
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Dumbbell Shoulder Press",
+      "type": "Strength",
+      "equipment": "Dumbbells",
+      "primary_muscle": "Shoulders",
+      "secondary_muscles": ["Triceps"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Sit on a bench with back support holding a dumbbell in each hand at shoulder level.",
+        "Press the dumbbells upward until your arms are fully extended.",
+        "Lower them slowly back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Standing Dumbbell Press"
+      ],
+      "common_mistakes": [
+        "Allowing the dumbbells to drift forward.",
+        "Using momentum instead of controlled movement."
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Arnold Press",
+      "type": "Strength",
+      "equipment": "Dumbbells",
+      "primary_muscle": "Shoulders",
+      "secondary_muscles": ["Triceps", "Upper Chest"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Start with dumbbells held in front of your shoulders, palms facing your body.",
+        "Rotate your palms outward as you press the weights overhead.",
+        "Reverse the movement on the way down to return to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Seated Arnold Press"
+      ],
+      "common_mistakes": [
+        "Improper wrist rotation.",
+        "Using excessive weight leading to poor form."
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Lateral Raise",
+      "type": "Strength",
+      "equipment": "Dumbbells",
+      "primary_muscle": "Lateral Deltoids",
+      "secondary_muscles": ["Upper Traps"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Push",
+      "instructions": [
+        "Stand with a dumbbell in each hand at your sides.",
+        "Lift your arms out to the sides until they are parallel to the floor.",
+        "Slowly lower the weights back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Cable Lateral Raise",
+        "Machine Lateral Raise"
+      ],
+      "common_mistakes": [
+        "Swinging the weights or using momentum.",
+        "Lifting too high, which can stress the shoulder joint."
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Front Raise",
+      "type": "Strength",
+      "equipment": "Dumbbells",
+      "primary_muscle": "Anterior Deltoids",
+      "secondary_muscles": ["Upper Chest"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Push",
+      "instructions": [
+        "Stand with a dumbbell in each hand in front of your thighs.",
+        "Raise the weights straight in front of you until they are parallel to the floor.",
+        "Lower them back down slowly with control.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Plate Front Raise",
+        "Cable Front Raise"
+      ],
+      "common_mistakes": [
+        "Using momentum or swinging the weights.",
+        "Raising the weights too high, which can cause shoulder strain."
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Rear Delt Fly",
+      "type": "Strength",
+      "equipment": "Dumbbells",
+      "primary_muscle": "Posterior Deltoids",
+      "secondary_muscles": ["Upper Back"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Bend forward at the hips with a slight bend in the knees.",
+        "Hold a dumbbell in each hand with arms extended downward.",
+        "Raise your arms out to the sides until they are parallel to the ground.",
+        "Slowly lower them back down.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Reverse Pec Deck Fly"
+      ],
+      "common_mistakes": [
+        "Rounding the back instead of keeping it neutral.",
+        "Using weights that are too heavy, compromising form."
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Upright Row",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Shoulders",
+      "secondary_muscles": ["Upper Traps", "Biceps"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Pull",
+      "instructions": [
+        "Hold a barbell with an overhand grip in front of your thighs.",
+        "Pull the barbell upward along your torso until it reaches chin level.",
+        "Lower the barbell slowly back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Dumbbell Upright Row"
+      ],
+      "common_mistakes": [
+        "Lifting too heavy, which may lead to shoulder impingement.",
+        "Pulling the weight too high or using jerky movements."
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Cable Face Pull",
+      "type": "Strength",
+      "equipment": "Cable Machine",
+      "primary_muscle": "Rear Deltoids",
+      "secondary_muscles": ["Upper Back", "Traps"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Set the cable at face level and attach a rope handle.",
+        "Grab the rope with both hands and pull it towards your face with elbows flared out.",
+        "Squeeze your shoulder blades together at the peak.",
+        "Slowly return to the starting position and repeat."
+      ],
+      "variations": [
+        "Resistance Band Face Pulls"
+      ],
+      "common_mistakes": [
+        "Using too heavy a weight, which compromises form.",
+        "Not keeping the elbows high during the movement."
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Barbell Push Press",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Shoulders",
+      "secondary_muscles": ["Triceps", "Legs"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Push",
+      "instructions": [
+        "Stand with your feet shoulder-width apart holding a barbell at shoulder level.",
+        "Dip your knees slightly and use your leg drive to help press the bar overhead.",
+        "Fully extend your arms at the top before lowering the bar back down.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Dumbbell Push Press"
+      ],
+      "common_mistakes": [
+        "Relying solely on upper body strength instead of using leg drive.",
+        "Not controlling the descent of the barbell."
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Seated Dumbbell Lateral Raise",
+      "type": "Strength",
+      "equipment": "Dumbbells",
+      "primary_muscle": "Lateral Deltoids",
+      "secondary_muscles": ["Shoulders"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Push",
+      "instructions": [
+        "Sit on a bench with a dumbbell in each hand at your sides.",
+        "With a slight bend in the elbows, lift the dumbbells out to the side until they reach shoulder height.",
+        "Slowly lower the weights back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Cable Lateral Raise"
+      ],
+      "common_mistakes": [
+        "Using momentum to swing the weights.",
+        "Lifting too high, which may stress the shoulder joints."
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Pull-Ups",
+      "type": "Strength",
+      "equipment": "Pull-Up Bar",
+      "primary_muscle": "Back",
+      "secondary_muscles": ["Biceps", "Shoulders"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Pull",
+      "instructions": [
+        "Grip the pull-up bar with palms facing away (overhand) at shoulder-width.",
+        "Pull your body upward until your chin passes the bar.",
+        "Lower yourself slowly back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Chin-Ups",
+        "Neutral Grip Pull-Ups"
+      ],
+      "common_mistakes": [
+        "Kipping or using momentum to complete the rep.",
+        "Not fully extending the arms at the bottom."
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Lat Pulldown",
+      "type": "Strength",
+      "equipment": "Cable Machine",
+      "primary_muscle": "Lats",
+      "secondary_muscles": ["Biceps", "Upper Back"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Pull",
+      "instructions": [
+        "Sit at the lat pulldown machine and grasp the bar with a wide grip.",
+        "Pull the bar down towards your chest while squeezing your shoulder blades together.",
+        "Slowly return the bar to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Close-Grip Pulldown",
+        "Behind-the-Neck Pulldown (with caution)"
+      ],
+      "common_mistakes": [
+        "Leaning back excessively during the pull.",
+        "Using momentum instead of controlled movement."
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Bent-Over Barbell Row",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Back",
+      "secondary_muscles": ["Lats", "Upper Back", "Biceps"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Pull",
+      "instructions": [
+        "Stand with feet shoulder-width apart, bend at the hips with a slight knee bend.",
+        "Grip the barbell with an overhand or mixed grip.",
+        "Pull the barbell towards your lower ribcage while keeping your back flat.",
+        "Slowly lower the barbell back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Pendlay Row",
+        "T-Bar Row"
+      ],
+      "common_mistakes": [
+        "Rounding the back during the movement.",
+        "Using momentum instead of controlled muscle contraction."
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Seated Cable Row",
+      "type": "Strength",
+      "equipment": "Cable Machine",
+      "primary_muscle": "Back",
+      "secondary_muscles": ["Biceps", "Middle Back"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Pull",
+      "instructions": [
+        "Sit at the cable row machine with feet braced against the platform.",
+        "Grab the handle with both hands and extend your arms fully.",
+        "Pull the handle towards your torso while squeezing your shoulder blades together.",
+        "Slowly return to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Wide-Grip Seated Row",
+        "Single-Arm Cable Row"
+      ],
+      "common_mistakes": [
+        "Leaning too far back or using excessive momentum.",
+        "Not fully retracting the shoulder blades."
+      ]
+    },
+    {
+      "id": 67,
+      "name": "T-Bar Row",
+      "type": "Strength",
+      "equipment": "T-Bar Row Machine or Barbell with a V-handle",
+      "primary_muscle": "Back",
+      "secondary_muscles": ["Lats", "Middle Back", "Biceps"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Pull",
+      "instructions": [
+        "Stand over the T-bar row setup with feet shoulder-width apart.",
+        "Bend slightly at the hips while keeping your back flat.",
+        "Grasp the handles and pull the weight towards your chest.",
+        "Slowly extend your arms back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Chest-Supported T-Bar Row"
+      ],
+      "common_mistakes": [
+        "Rounding the back during the pull.",
+        "Using a jerking motion to lift the weight."
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Single-Arm Dumbbell Row",
+      "type": "Strength",
+      "equipment": "Dumbbell",
+      "primary_muscle": "Back",
+      "secondary_muscles": ["Lats", "Biceps"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Pull",
+      "instructions": [
+        "Place one knee and hand on a bench for support.",
+        "Hold a dumbbell in the opposite hand with a neutral grip.",
+        "Pull the dumbbell upward towards your hip while squeezing your back muscles.",
+        "Slowly lower the dumbbell back to the starting position.",
+        "Repeat for the desired number of reps and switch sides."
+      ],
+      "variations": [
+        "Chest-Supported Dumbbell Row"
+      ],
+      "common_mistakes": [
+        "Twisting the torso during the row.",
+        "Using momentum instead of focusing on the back muscles."
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Inverted Row",
+      "type": "Bodyweight",
+      "equipment": "Smith Machine or Suspension Trainer",
+      "primary_muscle": "Back",
+      "secondary_muscles": ["Biceps", "Shoulders"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Pull",
+      "instructions": [
+        "Set a barbell in a Smith machine at waist height or use suspension straps.",
+        "Lie underneath and grip the bar with an overhand grip.",
+        "Keep your body straight and pull your chest up towards the bar.",
+        "Slowly lower back down to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Feet-Elevated Inverted Row",
+        "TRX Row"
+      ],
+      "common_mistakes": [
+        "Allowing the hips to sag or pike.",
+        "Using a jerky motion instead of a controlled pull."
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Deadlift",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Back",
+      "secondary_muscles": ["Glutes", "Hamstrings", "Core"],
+      "difficulty": "Advanced",
+      "mechanics": "Compound",
+      "category": "Pull",
+      "instructions": [
+        "Stand with feet hip-width apart with the barbell over your mid-foot.",
+        "Bend at the hips and knees to grip the bar with an overhand or mixed grip.",
+        "Keep your back flat as you lift the bar by extending your hips and knees.",
+        "Stand upright, then lower the bar back down with control.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Romanian Deadlift",
+        "Sumo Deadlift"
+      ],
+      "common_mistakes": [
+        "Rounding the back during the lift.",
+        "Using too much weight and sacrificing form."
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Machine Row",
+      "type": "Strength",
+      "equipment": "Rowing Machine (Weight Stack)",
+      "primary_muscle": "Back",
+      "secondary_muscles": ["Biceps", "Middle Back"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Pull",
+      "instructions": [
+        "Sit on the machine and adjust the seat and chest pad if necessary.",
+        "Grip the handles and pull them towards your torso, squeezing your shoulder blades together.",
+        "Slowly extend your arms back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Wide-Grip Machine Row"
+      ],
+      "common_mistakes": [
+        "Leaning back excessively.",
+        "Not fully contracting the back muscles during the pull."
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Good Mornings",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Lower Back",
+      "secondary_muscles": ["Hamstrings", "Glutes"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Pull",
+      "instructions": [
+        "Place a barbell on your upper back and stand with feet shoulder-width apart.",
+        "Keep a slight bend in your knees and hinge at the hips to lower your torso forward.",
+        "Stop when your torso is roughly parallel to the floor.",
+        "Return to the starting position by engaging your lower back and glutes.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Bodyweight Good Mornings"
+      ],
+      "common_mistakes": [
+        "Rounding the back during the movement.",
+        "Lowering too far and risking strain on the lower back."
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Barbell Back Squat",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Quadriceps",
+      "secondary_muscles": ["Glutes", "Hamstrings", "Core"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Legs",
+      "instructions": [
+        "Position a barbell across your upper back and stand with feet shoulder-width apart.",
+        "Keep your chest up and core engaged as you lower into a squat until your thighs are parallel to the floor.",
+        "Drive through your heels to return to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Front Squat",
+        "Box Squat"
+      ],
+      "common_mistakes": [
+        "Letting the knees cave inward.",
+        "Rounding the back during the descent.",
+        "Not reaching an adequate depth."
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Leg Press",
+      "type": "Strength",
+      "equipment": "Leg Press Machine",
+      "primary_muscle": "Quadriceps",
+      "secondary_muscles": ["Glutes", "Hamstrings"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Legs",
+      "instructions": [
+        "Sit on the leg press machine with your feet placed shoulder-width apart on the platform.",
+        "Slowly lower the platform until your knees are at a 90-degree angle.",
+        "Push the platform back up by extending your legs, without locking your knees.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Single-Leg Press"
+      ],
+      "common_mistakes": [
+        "Allowing the knees to collapse inward.",
+        "Not using full range of motion."
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Bulgarian Split Squat",
+      "type": "Strength",
+      "equipment": "Bench, Dumbbells (optional)",
+      "primary_muscle": "Quadriceps",
+      "secondary_muscles": ["Glutes", "Hamstrings", "Core"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Legs",
+      "instructions": [
+        "Stand a few feet in front of a bench and place one foot behind you on the bench.",
+        "Lower your body by bending the front knee until the thigh is parallel to the ground.",
+        "Push through the heel to return to the starting position.",
+        "Repeat for the desired number of reps, then switch legs."
+      ],
+      "variations": [
+        "Bodyweight Bulgarian Split Squat",
+        "Weighted Bulgarian Split Squat"
+      ],
+      "common_mistakes": [
+        "Allowing the front knee to extend too far forward.",
+        "Leaning too far forward, which reduces glute engagement."
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Romanian Deadlift",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Hamstrings",
+      "secondary_muscles": ["Glutes", "Lower Back"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Legs",
+      "instructions": [
+        "Stand with feet shoulder-width apart holding a barbell in front of your thighs.",
+        "Keep a slight bend in your knees and hinge at the hips, lowering the bar while keeping your back straight.",
+        "Lower until you feel a stretch in your hamstrings, then return to the starting position by extending your hips.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Dumbbell Romanian Deadlift"
+      ],
+      "common_mistakes": [
+        "Rounding the back during the movement.",
+        "Lowering the bar too far, which may lead to injury."
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Walking Lunges",
+      "type": "Strength",
+      "equipment": "Dumbbells (optional)",
+      "primary_muscle": "Quadriceps",
+      "secondary_muscles": ["Glutes", "Hamstrings"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Legs",
+      "instructions": [
+        "Stand upright and take a step forward with one leg.",
+        "Lower your body until both knees are at 90-degree angles.",
+        "Push through the front heel to bring the back leg forward into the next lunge.",
+        "Continue walking forward, alternating legs."
+      ],
+      "variations": [
+        "Bodyweight Walking Lunges",
+        "Weighted Walking Lunges"
+      ],
+      "common_mistakes": [
+        "Allowing the front knee to pass the toes.",
+        "Leaning forward, which shifts balance."
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Leg Extensions",
+      "type": "Strength",
+      "equipment": "Leg Extension Machine",
+      "primary_muscle": "Quadriceps",
+      "secondary_muscles": [],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Legs",
+      "instructions": [
+        "Sit on the leg extension machine with your ankles under the padded lever.",
+        "Extend your legs fully until they are straight, squeezing the quadriceps at the top.",
+        "Slowly lower the weight back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Single-Leg Extension"
+      ],
+      "common_mistakes": [
+        "Locking out the knees at the top.",
+        "Using excessive weight which may strain the knee joint."
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Hamstring Curls",
+      "type": "Strength",
+      "equipment": "Hamstring Curl Machine",
+      "primary_muscle": "Hamstrings",
+      "secondary_muscles": [],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Legs",
+      "instructions": [
+        "Lie face down (or sit, depending on the machine) and position your ankles under the padded lever.",
+        "Curl your legs upward by contracting your hamstrings.",
+        "Slowly lower back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Seated Hamstring Curl",
+        "Lying Hamstring Curl"
+      ],
+      "common_mistakes": [
+        "Using too heavy a weight, leading to loss of control.",
+        "Not performing a full range of motion."
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Calf Raises",
+      "type": "Strength",
+      "equipment": "Bodyweight/Dumbbells/Calf Raise Machine",
+      "primary_muscle": "Calves",
+      "secondary_muscles": [],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Legs",
+      "instructions": [
+        "Stand on a raised platform with your heels hanging off the edge.",
+        "Rise up onto your toes as high as possible, contracting your calf muscles.",
+        "Slowly lower your heels below the platform level.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Seated Calf Raises",
+        "Standing Calf Raises"
+      ],
+      "common_mistakes": [
+        "Using momentum instead of a controlled motion.",
+        "Not achieving a full range of motion."
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Glute Bridge",
+      "type": "Strength",
+      "equipment": "Bodyweight/Barbell",
+      "primary_muscle": "Glutes",
+      "secondary_muscles": ["Hamstrings", "Lower Back"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Legs",
+      "instructions": [
+        "Lie on your back with knees bent and feet flat on the floor.",
+        "Lift your hips upward by squeezing your glutes until your body forms a straight line from shoulders to knees.",
+        "Hold the contraction for a moment, then lower your hips back down.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Single-Leg Glute Bridge",
+        "Weighted Glute Bridge"
+      ],
+      "common_mistakes": [
+        "Not fully contracting the glutes at the top.",
+        "Overextending the lower back."
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Step-Ups",
+      "type": "Strength",
+      "equipment": "Bench or Box, Dumbbells (optional)",
+      "primary_muscle": "Quadriceps",
+      "secondary_muscles": ["Glutes", "Hamstrings"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Legs",
+      "instructions": [
+        "Stand in front of a bench or sturdy box.",
+        "Step onto the bench with one foot, pressing through the heel to lift your body upward.",
+        "Lower yourself back down with control and alternate legs.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Weighted Step-Ups"
+      ],
+      "common_mistakes": [
+        "Using momentum instead of controlled movement.",
+        "Not fully extending the stepping leg at the top."
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Dumbbell Wrist Curl",
+      "type": "Strength",
+      "equipment": "Dumbbells",
+      "primary_muscle": "Forearms",
+      "secondary_muscles": ["Grip"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Forearms",
+      "instructions": [
+        "Sit on a bench and rest your forearms on your thighs with your wrists hanging over the edge, palms up.",
+        "Hold a dumbbell in each hand and curl your wrists upward by contracting your forearm muscles.",
+        "Slowly lower the dumbbells back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Barbell Wrist Curl"
+      ],
+      "common_mistakes": [
+        "Using too heavy a weight and swinging the arms.",
+        "Not controlling the movement on the way down."
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Dumbbell Reverse Wrist Curl",
+      "type": "Strength",
+      "equipment": "Dumbbells",
+      "primary_muscle": "Forearms",
+      "secondary_muscles": ["Grip"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Forearms",
+      "instructions": [
+        "Sit on a bench and rest your forearms on your thighs with your wrists hanging over the edge, palms down.",
+        "Hold a dumbbell in each hand and lift the back of your hands by extending your wrists.",
+        "Slowly lower the dumbbells back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Barbell Reverse Wrist Curl"
+      ],
+      "common_mistakes": [
+        "Using momentum instead of a controlled motion.",
+        "Incorrect wrist positioning that reduces effectiveness."
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Farmer's Walk",
+      "type": "Strength",
+      "equipment": "Dumbbells or Farmer's Walk Handles",
+      "primary_muscle": "Forearms",
+      "secondary_muscles": ["Grip", "Shoulders", "Core"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Forearms",
+      "instructions": [
+        "Stand upright holding a heavy pair of dumbbells or specialized handles at your sides.",
+        "Walk a set distance or for a set period while maintaining good posture and a firm grip.",
+        "Focus on keeping your core engaged throughout the movement."
+      ],
+      "variations": [
+        "Trap Bar Walk"
+      ],
+      "common_mistakes": [
+        "Poor posture or allowing the shoulders to slump.",
+        "Dropping the weights too quickly due to a loose grip."
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Plate Pinch Hold",
+      "type": "Strength",
+      "equipment": "Weight Plates",
+      "primary_muscle": "Forearms",
+      "secondary_muscles": ["Grip"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Forearms",
+      "instructions": [
+        "Hold two weight plates together with your fingers and thumb in a pinch grip.",
+        "Keep your arms at your sides and hold for as long as possible.",
+        "Release slowly and repeat for the desired duration or sets."
+      ],
+      "variations": [
+        "Single Plate Pinch Hold"
+      ],
+      "common_mistakes": [
+        "Not engaging the core, which may lead to instability.",
+        "Allowing the plates to slip due to improper grip."
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Wrist Roller",
+      "type": "Strength",
+      "equipment": "Wrist Roller Device",
+      "primary_muscle": "Forearms",
+      "secondary_muscles": ["Grip"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Forearms",
+      "instructions": [
+        "Stand holding a wrist roller with both hands and arms extended in front of you.",
+        "Roll the weight upward by twisting your wrists, then slowly lower it back down.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Cable Wrist Roller"
+      ],
+      "common_mistakes": [
+        "Using jerky movements instead of smooth, controlled rotations.",
+        "Not completing the full range of motion."
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Towel Hang",
+      "type": "Bodyweight",
+      "equipment": "Pull-Up Bar and Towel",
+      "primary_muscle": "Forearms",
+      "secondary_muscles": ["Grip", "Shoulders"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Forearms",
+      "instructions": [
+        "Drape a towel over a pull-up bar and grab both ends firmly.",
+        "Hang with your feet off the ground for as long as possible, focusing on maintaining a strong grip.",
+        "Lower yourself safely after the hold."
+      ],
+      "variations": [
+        "Single Towel Hang"
+      ],
+      "common_mistakes": [
+        "Allowing the shoulders to shrug or the core to relax.",
+        "Not maintaining a steady grip throughout the exercise."
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Static Barbell Hold",
+      "type": "Strength",
+      "equipment": "Barbell",
+      "primary_muscle": "Forearms",
+      "secondary_muscles": ["Grip", "Shoulders"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Forearms",
+      "instructions": [
+        "Load a barbell with a moderate weight and lift it to arm's length.",
+        "Hold the barbell steady with a firm grip for as long as possible.",
+        "Focus on maintaining proper posture and tension in your forearms."
+      ],
+      "variations": [
+        "Dumbbell Static Hold"
+      ],
+      "common_mistakes": [
+        "Slouching or losing grip strength due to fatigue.",
+        "Not keeping the arms fully extended."
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Finger Curls",
+      "type": "Strength",
+      "equipment": "Barbell or Dumbbells",
+      "primary_muscle": "Forearms",
+      "secondary_muscles": ["Finger Flexors"],
+      "difficulty": "Beginner",
+      "mechanics": "Isolation",
+      "category": "Forearms",
+      "instructions": [
+        "Hold a barbell with an overhand grip and let it roll down to your fingertips.",
+        "Curl your fingers to bring the barbell back into your palm.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [
+        "Dumbbell Finger Curls"
+      ],
+      "common_mistakes": [
+        "Using too heavy a weight, causing uncontrolled movement.",
+        "Not fully extending the fingers on the eccentric phase."
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Rice Bucket Training",
+      "type": "Strength",
+      "equipment": "Rice Bucket",
+      "primary_muscle": "Forearms",
+      "secondary_muscles": [],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Forearms",
+      "instructions": [
+        "Fill a bucket with rice and submerge your hands fully.",
+        "Perform various movements such as squeezing, twisting, and digging your fingers through the rice.",
+        "Continue for a set period to work on forearm strength and endurance."
+      ],
+      "variations": [],
+      "common_mistakes": [
+        "Using excessive force which can lead to strain.",
+        "Not moving through the full range of motion with your fingers."
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Reverse Plate Curl",
+      "type": "Strength",
+      "equipment": "Weight Plate",
+      "primary_muscle": "Forearms",
+      "secondary_muscles": ["Grip"],
+      "difficulty": "Intermediate",
+      "mechanics": "Isolation",
+      "category": "Forearms",
+      "instructions": [
+        "Hold a weight plate with an overhand grip, keeping your arms straight.",
+        "Curl your fingers upward slightly to engage the forearm muscles.",
+        "Hold briefly at the top before releasing back to the starting position.",
+        "Repeat for the desired number of reps."
+      ],
+      "variations": [],
+      "common_mistakes": [
+        "Relying on momentum rather than controlled movement.",
+        "Not maintaining a steady grip throughout the exercise."
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Outdoor Running",
+      "type": "Cardio",
+      "equipment": "Running Shoes",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Wear proper running shoes and dress appropriately for the weather.",
+        "Start with a light warm-up jog for 5-10 minutes.",
+        "Run at a steady pace, focusing on proper posture and breathing.",
+        "Cool down with a walk and stretching after your run."
+      ],
+      "variations": [
+        "Interval Running",
+        "Trail Running"
+      ],
+      "common_mistakes": [
+        "Overstriding and poor posture.",
+        "Skipping the warm-up or cool-down."
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Treadmill Running",
+      "type": "Cardio",
+      "equipment": "Treadmill",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Set the treadmill to a comfortable pace and incline.",
+        "Begin with a warm-up walk for 5 minutes.",
+        "Increase the speed gradually to reach your desired running pace.",
+        "Cool down with a slow walk and stretch."
+      ],
+      "variations": [
+        "Incline Running",
+        "Interval Sprints"
+      ],
+      "common_mistakes": [
+        "Over-relying on treadmill safety handles.",
+        "Setting the speed too high too soon."
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Outdoor Cycling",
+      "type": "Cardio",
+      "equipment": "Bicycle, Helmet",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs", "Glutes"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Wear a helmet and proper cycling gear.",
+        "Begin cycling at a moderate pace on a safe route.",
+        "Focus on maintaining steady pedaling and proper bike posture.",
+        "Cool down by gradually slowing your pace and stretching."
+      ],
+      "variations": [
+        "Road Cycling",
+        "Mountain Biking"
+      ],
+      "common_mistakes": [
+        "Not adjusting the bike seat height correctly.",
+        "Ignoring safety rules on busy roads."
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Stationary Bike",
+      "type": "Cardio",
+      "equipment": "Stationary Bike",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Adjust the seat height for comfort.",
+        "Begin with a 5-minute warm-up at low resistance.",
+        "Increase resistance and pace for a steady workout session.",
+        "Cool down by gradually reducing resistance and pedaling speed."
+      ],
+      "variations": [
+        "HIIT on Stationary Bike",
+        "Endurance Cycling"
+      ],
+      "common_mistakes": [
+        "Improper seat adjustment leading to knee strain.",
+        "Not maintaining proper posture."
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Jump Rope",
+      "type": "Cardio",
+      "equipment": "Jump Rope",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs", "Core"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Choose a jump rope of appropriate length.",
+        "Begin with single jumps at a moderate pace.",
+        "Focus on landing softly on the balls of your feet.",
+        "Increase speed or try double-unders as you progress."
+      ],
+      "variations": [
+        "Alternating Foot Jump",
+        "Double Unders"
+      ],
+      "common_mistakes": [
+        "Jumping too high, leading to inefficient movement.",
+        "Not maintaining a steady rhythm."
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Rowing Machine",
+      "type": "Cardio",
+      "equipment": "Rowing Machine",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Back", "Legs", "Arms"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Sit on the rowing machine and secure your feet.",
+        "Start with a proper catch position and drive using your legs.",
+        "Lean back slightly and pull the handle towards your torso.",
+        "Reverse the motion smoothly to return to the starting position."
+      ],
+      "variations": [
+        "High-Intensity Rowing Intervals"
+      ],
+      "common_mistakes": [
+        "Overusing arms instead of legs.",
+        "Not maintaining proper posture during the stroke."
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Elliptical Trainer",
+      "type": "Cardio",
+      "equipment": "Elliptical Machine",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs", "Arms"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Step onto the elliptical and adjust the resistance.",
+        "Maintain an upright posture and begin moving smoothly.",
+        "Use the handles to engage your upper body.",
+        "Cool down by gradually reducing speed and resistance."
+      ],
+      "variations": [
+        "Reverse Stride",
+        "Interval Training on Elliptical"
+      ],
+      "common_mistakes": [
+        "Leaning on the handles instead of using them for guidance.",
+        "Overstriding which can lead to joint discomfort."
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Stair Climber",
+      "type": "Cardio",
+      "equipment": "Stair Climber Machine",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs", "Glutes"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Step onto the machine and adjust settings for a moderate pace.",
+        "Keep your back straight and engage your core.",
+        "Focus on a steady and controlled stepping motion.",
+        "Cool down with a slower pace towards the end of your session."
+      ],
+      "variations": [
+        "Interval Stair Climbing"
+      ],
+      "common_mistakes": [
+        "Leaning heavily on the machine rails.",
+        "Taking steps too quickly, which can reduce workout quality."
+      ]
+    },
+    {
+      "id": 101,
+      "name": "HIIT Sprints",
+      "type": "Cardio",
+      "equipment": "None (Outdoor or Track)",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs"],
+      "difficulty": "Advanced",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Warm up with a light jog for 5-10 minutes.",
+        "Sprint at maximum effort for 20-30 seconds.",
+        "Recover with a walk or light jog for 60-90 seconds.",
+        "Repeat for 8-10 rounds."
+      ],
+      "variations": [
+        "Hill Sprints",
+        "Track Sprints"
+      ],
+      "common_mistakes": [
+        "Not warming up properly, leading to injury.",
+        "Pacing yourself too conservatively during sprints."
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Burpees",
+      "type": "Cardio",
+      "equipment": "Bodyweight",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs", "Chest", "Arms", "Core"],
+      "difficulty": "Advanced",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Begin in a standing position.",
+        "Drop into a squat and place your hands on the floor.",
+        "Kick your feet back into a push-up position.",
+        "Perform a push-up, then quickly return your feet to the squat position.",
+        "Explosively jump into the air and repeat."
+      ],
+      "variations": [
+        "Half Burpees (without push-up)",
+        "Burpee with Tuck Jump"
+      ],
+      "common_mistakes": [
+        "Rushing through the movement, which can compromise form.",
+        "Not engaging the core during transitions."
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Mountain Climbers",
+      "type": "Cardio",
+      "equipment": "Bodyweight",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Core", "Legs", "Shoulders"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Begin in a high plank position with hands under your shoulders.",
+        "Bring one knee towards your chest, then quickly switch legs in a running motion.",
+        "Maintain a steady pace while keeping your core engaged.",
+        "Continue alternating legs for the desired duration."
+      ],
+      "variations": [
+        "Cross-Body Mountain Climbers"
+      ],
+      "common_mistakes": [
+        "Dropping the hips or losing core stability.",
+        "Moving too slowly, which reduces the cardio benefit."
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Jumping Jacks",
+      "type": "Cardio",
+      "equipment": "Bodyweight",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs", "Arms"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Stand upright with feet together and arms at your sides.",
+        "Jump while spreading your legs and raising your arms overhead.",
+        "Jump again to return to the starting position.",
+        "Repeat for the desired number of reps or time duration."
+      ],
+      "variations": [
+        "Modified Jumping Jacks (step out instead of jump)"
+      ],
+      "common_mistakes": [
+        "Not fully extending the arms or legs.",
+        "Using excessive force that can lead to injury."
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Kickboxing",
+      "type": "Cardio",
+      "equipment": "None (or Boxing Gloves)",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs", "Arms", "Core"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Start with a light warm-up to get the blood flowing.",
+        "Perform a series of punches and kicks in a controlled manner.",
+        "Focus on technique, speed, and power.",
+        "Cool down with light stretches after the session."
+      ],
+      "variations": [
+        "Shadow Boxing",
+        "Heavy Bag Workouts"
+      ],
+      "common_mistakes": [
+        "Overextending movements and risking injury.",
+        "Not maintaining proper stance or balance."
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Dancing Aerobics",
+      "type": "Cardio",
+      "equipment": "Music, Open Space",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs", "Arms", "Core"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Choose upbeat music and clear a safe space for movement.",
+        "Follow a choreographed routine or freestyle with high-energy moves.",
+        "Focus on keeping a steady pace and engaging your whole body.",
+        "Cool down with slow movements and stretching."
+      ],
+      "variations": [
+        "Zumba",
+        "Step Aerobics"
+      ],
+      "common_mistakes": [
+        "Overexerting without proper warm-up.",
+        "Neglecting to maintain balance during fast moves."
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Swimming",
+      "type": "Cardio",
+      "equipment": "Swimming Pool, Goggles",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Full Body"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Warm up with light swimming or water jogging.",
+        "Choose a stroke (freestyle, backstroke, etc.) and maintain a steady pace.",
+        "Focus on breathing rhythm and efficient strokes.",
+        "Cool down with gentle swimming and stretching in the water."
+      ],
+      "variations": [
+        "Interval Swimming",
+        "Lap Swimming"
+      ],
+      "common_mistakes": [
+        "Poor breathing technique leading to fatigue.",
+        "Overexertion without a proper warm-up."
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Spin Class",
+      "type": "Cardio",
+      "equipment": "Spin Bike",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs", "Core"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Adjust the spin bike settings for comfort and proper resistance.",
+        "Follow the instructor’s cues for speed, resistance, and posture.",
+        "Maintain a steady pace and focus on controlled breathing.",
+        "Cool down with lower resistance and stretching post-session."
+      ],
+      "variations": [
+        "Interval Spin",
+        "Endurance Spin"
+      ],
+      "common_mistakes": [
+        "Improper bike setup leading to discomfort.",
+        "Not adjusting resistance to match workout intensity."
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Battle Ropes",
+      "type": "Cardio",
+      "equipment": "Battle Ropes",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Arms", "Shoulders", "Core"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Anchor the battle ropes securely.",
+        "Hold an end in each hand and create waves by rapidly moving your arms.",
+        "Maintain a strong stance with knees slightly bent.",
+        "Perform for a set time or number of intervals."
+      ],
+      "variations": [
+        "Alternating Waves",
+        "Double Wave Slams"
+      ],
+      "common_mistakes": [
+        "Using only the arms without engaging the core.",
+        "Overexerting which may compromise form."
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Circuit Training",
+      "type": "Cardio",
+      "equipment": "Various (Bodyweight, Dumbbells, etc.)",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Full Body"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Design a circuit of 5-10 exercises that target different muscle groups.",
+        "Perform each exercise for 30-60 seconds with minimal rest in between.",
+        "Complete the circuit 2-3 times.",
+        "Cool down with stretching after the session."
+      ],
+      "variations": [
+        "Timed Circuits",
+        "Repetition-Based Circuits"
+      ],
+      "common_mistakes": [
+        "Not pacing yourself through the circuit.",
+        "Skipping rest intervals leading to premature fatigue."
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Skipping",
+      "type": "Cardio",
+      "equipment": "Jump Rope",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs", "Core"],
+      "difficulty": "Beginner",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Hold a jump rope and choose a comfortable pace.",
+        "Jump lightly, keeping your knees slightly bent.",
+        "Maintain a rhythmic pace and proper form.",
+        "Continue for a set time or number of jumps."
+      ],
+      "variations": [
+        "Single Foot Skipping",
+        "Alternate Foot Skipping"
+      ],
+      "common_mistakes": [
+        "Jumping too high and wasting energy.",
+        "Not maintaining consistent rhythm."
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Hiking",
+      "type": "Cardio",
+      "equipment": "Hiking Boots, Backpack (optional)",
+      "primary_muscle": "Cardiovascular System",
+      "secondary_muscles": ["Legs", "Glutes"],
+      "difficulty": "Intermediate",
+      "mechanics": "Compound",
+      "category": "Cardio",
+      "instructions": [
+        "Choose a scenic trail with varying terrain.",
+        "Wear proper hiking boots and carry water and snacks.",
+        "Hike at a steady pace, adjusting your speed for inclines and declines.",
+        "Take breaks as needed and enjoy the outdoors."
+      ],
+      "variations": [
+        "Trail Hiking",
+        "Hill Hiking"
+      ],
+      "common_mistakes": [
+        "Not wearing appropriate footwear.",
+        "Overexerting early without proper pacing."
+      ]
+    }
+  ]
+  
